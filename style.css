@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.cv-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cv-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #2c3e50;
+}
+
+.cv-header p {
+    font-size: 1.1em;
+    color: #7f8c8d;
+}
+
+.cv-content {
+    margin-top: 20px;
+}
+
+.cv-section {
+    margin-bottom: 20px;
+}
+
+.cv-section h2 {
+    font-size: 1.8em;
+    color: #34495e;
+    border-bottom: 2px solid #e74c3c;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.cv-section p {
+    margin: 5px 0;
+}
+
+.cv-section ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+    list-style: square;
+}
+
+.cv-section ul li {
+    margin-bottom: 8px;
+}
+
+.experience h3 {
+    margin: 0;
+    font-size: 1.4em;
+    color: #2980b9;
+}
+
+.experience p {
+    font-size: 0.95em;
+    color: #7f8c8d;
+}
+
+.education p {
+    font-size: 1em;
+    color: #34495e;
+}
+
+@media (max-width: 600px) {
+    .cv-container {
+        padding: 10px;
+    }
+
+    .cv-header h1 {
+        font-size: 2em;
+    }
+
+    .cv-section h2 {
+        font-size: 1.5em;
+    }
+}
